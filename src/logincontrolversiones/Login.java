@@ -144,6 +144,8 @@ if(usuario.isEmpty() || contraseña.isEmpty()){
              }else if(usuario.equals("david") && contraseña.equals("david")){
                  JOptionPane.showMessageDialog(null,"Bienvenido");
 
+             }else if(usuario.equals("yury") && contraseña.equals("yury")){
+                 JOptionPane.showMessageDialog(null,"Bienvenido");
              }
              else{
                  JOptionPane.showConfirmDialog(null,"Su usuario o contraseña es incorrecto");
