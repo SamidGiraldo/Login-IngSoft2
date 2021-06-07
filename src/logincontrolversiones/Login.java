@@ -138,9 +138,6 @@ public class Login extends javax.swing.JFrame {
             if (usuario.equals("monica") && contraseña.equals("monica")) {
                 JOptionPane.showMessageDialog(null, "Bienvenido");
 
-            } else if (usuario.equals("samid") && contraseña.equals("samid")) {
-                JOptionPane.showMessageDialog(null, "Bienvenido");
-
             } else if (usuario.equals("yury") && contraseña.equals("yury")) {
                 JOptionPane.showMessageDialog(null, "Bienvenido");
             } else {
