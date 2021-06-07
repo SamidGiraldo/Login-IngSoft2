@@ -131,31 +131,27 @@ public class Login extends javax.swing.JFrame {
     private void jB_ingresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jB_ingresarActionPerformed
         String usuario = jTF_usuario.getText();
         String contraseña = jFT_contraseña.getText();
-if(usuario.isEmpty() || contraseña.isEmpty()){
+        if (usuario.isEmpty() || contraseña.isEmpty()) {
             JOptionPane.showMessageDialog(null, "Debe ingresar su nombre de usuario y contraseña para poder acceder");
-            
-        }else{
-             if(usuario.equals("monica") && contraseña.equals("monica")){
-                 JOptionPane.showMessageDialog(null,"Bienvenido");
 
-             }else if(usuario.equals("samid") && contraseña.equals("samid")){
-                 JOptionPane.showMessageDialog(null,"Bienvenido");
+        } else {
+            if (usuario.equals("monica") && contraseña.equals("monica")) {
+                JOptionPane.showMessageDialog(null, "Bienvenido");
 
-             }else if(usuario.equals("david") && contraseña.equals("david")){
-                 JOptionPane.showMessageDialog(null,"Bienvenido");
+            } else if (usuario.equals("samid") && contraseña.equals("samid")) {
+                JOptionPane.showMessageDialog(null, "Bienvenido");
 
-             }else if(usuario.equals("yury") && contraseña.equals("yury")){
-                 JOptionPane.showMessageDialog(null,"Bienvenido");
-             }
-             else{
-                 JOptionPane.showConfirmDialog(null,"Su usuario o contraseña es incorrecto");
-             }
+            } else if (usuario.equals("yury") && contraseña.equals("yury")) {
+                JOptionPane.showMessageDialog(null, "Bienvenido");
+            } else {
+                JOptionPane.showConfirmDialog(null, "Su usuario o contraseña es incorrecto");
+            }
         }
 
     }//GEN-LAST:event_jB_ingresarActionPerformed
 
     private void jB_recuperarContraseñaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jB_recuperarContraseñaActionPerformed
-        JOptionPane.showMessageDialog(null,"Contactese con su servicio de soporte");
+        JOptionPane.showMessageDialog(null, "Contactese con su servicio de soporte");
     }//GEN-LAST:event_jB_recuperarContraseñaActionPerformed
 
     /**
