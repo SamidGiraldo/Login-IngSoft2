@@ -135,10 +135,7 @@ public class Login extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Debe ingresar su nombre de usuario y contraseña para poder acceder");
 
         } else {
-            if (usuario.equals("monica") && contraseña.equals("monica")) {
-                JOptionPane.showMessageDialog(null, "Bienvenido");
-
-            } else if (usuario.equals("yury") && contraseña.equals("yury")) {
+            if (usuario.equals("yury") && contraseña.equals("yury")) {
                 JOptionPane.showMessageDialog(null, "Bienvenido");
             } else {
                 JOptionPane.showConfirmDialog(null, "Su usuario o contraseña es incorrecto");
